@@ -1,3 +1,8 @@
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+
+
 model = Sequential()
 model.add(Dense(5, input_dim=input_dim, activation='soft_plus_te'))
 model.add(Dense(10, activation='soft_plus_te'))
